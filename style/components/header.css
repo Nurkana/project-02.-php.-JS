@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+    background-color: rgb(240, 243, 222);
+}
+.header-logo{
+    display: flex;
+}
+
+.format{
+    padding-top: 3px;
+    width: 110px;
+    height: 110px;
+}
+
+.header-logo a{
+    font-size: 50px;
+    color: #77e81a;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.header-search {
+    display: flex;
+    justify-content: center;
+}
+
+.avater {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+}

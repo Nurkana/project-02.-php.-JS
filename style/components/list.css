@@ -1,0 +1,12 @@
+.list-item {
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dotted #e7e7e7;
+    display: block;
+    color: #007BFF;
+}
+
+.list-item:first-of-type {
+    margin-top: 30px;
+}

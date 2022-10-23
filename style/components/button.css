@@ -1,0 +1,50 @@
+.button {
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background-color: #61f347;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #11c998
+}
+
+.button > img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.button-search {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.button-yellow {
+    background-color: #FFF72F;
+    color: #000;
+}
+
+.button-yellow:hover {
+    background-color: #EEE84E;
+    color: #000;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.button-danger{
+    background-color: #FF0000;
+    color: #fff;
+}

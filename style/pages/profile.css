@@ -1,0 +1,33 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile--ava {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.user-profile h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.user-profile h2,
+.user-profile p  {
+    line-height: 1.4;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.user-profile a {
+    margin: 0 auto;
+}
+
+.user-profile .button-danger{
+    margin-top: 30px;
+}

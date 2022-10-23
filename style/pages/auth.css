@@ -1,0 +1,21 @@
+.auth-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto 50px;
+}
+
+.auth-form h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.auth-form .fieldset {
+    width: 100%;
+}
+
+.auth-form .button {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
